@@ -13,33 +13,33 @@ const HomePage = () => {
       <div>3</div>
       <div>4</div> */}
       <HomePageCard title={"We have a surprise for you "}
-        img={"../images/home_grid_1.jpg"}
+        img={"../images/home_grid_1.jpg"} alt=""
         link={"See terms and conditions"}
       />
 
 <HomePageCard title={"Watch the rings of power "}
-        img={"../images/home_grid_2.jpg"}
+        img={"../images/home_grid_2.jpg"} alt=""
         link={"Start steaming now"}
       />
 
 <HomePageCard title={" Watch the unlimited Steaming "}
-        img={"../images/home_grid_3.jpg"}
+        img={"../images/home_grid_3.jpg"} alt=""
         link={"find out more"}
       />
 
 <HomePageCard title={"More title to explore "}
-        img={"../images/home_grid_4.jpg"}
+        img={"../images/home_grid_4.jpg"} alt=""
         link={"Browse kindle unlimited"}
       />
 
 <HomePageCard title={"Shope pet supplies"}
-        img={"../images/home_grid_5.jpg"}
+        img={"../images/home_grid_5.jpg"} alt=""
         link={"See more"}
       />
 
 
 <HomePageCard title={"Spring sale "}
-        img={"../images/home_grid_6.jpg"}
+        img={"../images/home_grid_6.jpg"} alt=""
         link={"See the deal"}
       />
 
@@ -63,7 +63,7 @@ const HomePage = () => {
      <CarouselProduct/>
       <CarouselCategory/>
       <div className="h-[200px] ">
-        <img className="h-[100%] m-auto" src = "../images/banner_image.jpg"/>
+        <img className="h-[100%] m-auto" src = "../images/banner_image.jpg" alt=""/>
       </div>
        </div>
     </div>

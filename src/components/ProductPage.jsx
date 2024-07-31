@@ -39,7 +39,7 @@ const ProductPage = () => {
  <div className="grid grid-cols-10 gap-2"> 
  {/* left  */}
  <div className="col-span-3 p-8 rounded m-auto bg-white">
-<img src = {`${product.image}`}/>
+<img src = {`${product.image}`} alt=""/>
  </div>
 
  {/* middle  */}

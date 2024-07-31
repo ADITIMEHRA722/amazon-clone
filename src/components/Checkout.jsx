@@ -41,7 +41,7 @@ const Checkout = () => {
                         </Link>
                       </div>
                       <div className="col-span-6">
-                        <div className="font-medium text-black mt-2">
+                        <div className={`font-medium ${product.textBlack ? 'text-black' : ''} mt-2`}>
                           <Link to={`/product/${product.id}`}>
                             <ProductDetails product={product} ratings={false} />
                           </Link>
